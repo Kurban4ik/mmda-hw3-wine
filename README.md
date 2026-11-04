@@ -10,3 +10,5 @@ st.cache_resource хранит один объект модели для все�
 
 Для деплоя загрузите папку в GitHub и в share.streamlit.io выберите Create app, репозиторий, ветку и путь wine_app/app.py (или app.py, если загружено только содержимое папки). В Advanced settings укажите Python 3.13, затем Deploy.
 Репозиторий: https://github.com/Kurban4ik/mmda-hw3-wine . Точка входа для Streamlit Cloud: app.py; Python 3.13.
+
+Если установка scikit-learn запускает сборку .tar.gz, проверьте версию Python. Для закреплённого scikit-learn==1.6.1 нет готового пакета под Python 3.14 на Linux. Выберите Python 3.13 при деплое. В requirements.txt запрещена сборка из исходников: неподходящее окружение теперь завершится понятной ошибкой вместо долгой компиляции.

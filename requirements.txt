@@ -1,3 +1,5 @@
+# Python 3.12 or 3.13; choose 3.13 in Streamlit Advanced settings.
+--only-binary=:all:
 streamlit==1.51.0
 scikit-learn==1.6.1
 numpy==2.5.4
