@@ -1,3 +1,5 @@
+Приложение: https://mmda-hw3-wine-m3vmyphumuqfgeutryafeq.streamlit.app/
+
 Проверено с Python 3.13.7. Версии зависимостей: requirements.txt.
 
 Из папки wine_app:
