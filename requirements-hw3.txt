@@ -1,0 +1,6 @@
+-r requirements.txt
+seaborn==0.13.2
+imbalanced-learn==0.14.0
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==7.2.0

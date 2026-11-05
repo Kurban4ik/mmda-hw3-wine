@@ -1,8 +1,10 @@
 Приложение: https://mmda-hw3-wine-m3vmyphumuqfgeutryafeq.streamlit.app/
 
+Ноутбук решения: HW3_MMDA.ipynb. Зависимости ноутбука устанавливаются из корня проекта: python -m pip install -r requirements-hw3.txt.
+
 Проверено с Python 3.13.7. Версии зависимостей: requirements.txt.
 
-Из папки wine_app:
+Из папки с app.py:
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 
